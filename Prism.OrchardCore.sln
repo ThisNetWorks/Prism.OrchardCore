@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28107.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prism.OrchardCore", "src\Prism\Prism.OrchardCore.csproj", "{35A0F713-5034-4426-9900-BD82288CA09D}"
 EndProject
@@ -19,6 +19,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E68C6BCF-7F8
 		src\Directory.Build.props = src\Directory.Build.props
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{9C3F093E-5040-4177-9F1E-3FA50A33F4CA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prism.OrchardCore.Sample", "sample\Prism.OrchardCore.Sample.csproj", "{B4C51A07-4BC7-4DB4-86D8-67360BAB1B42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,12 +33,17 @@ Global
 		{35A0F713-5034-4426-9900-BD82288CA09D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35A0F713-5034-4426-9900-BD82288CA09D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35A0F713-5034-4426-9900-BD82288CA09D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4C51A07-4BC7-4DB4-86D8-67360BAB1B42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4C51A07-4BC7-4DB4-86D8-67360BAB1B42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4C51A07-4BC7-4DB4-86D8-67360BAB1B42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4C51A07-4BC7-4DB4-86D8-67360BAB1B42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{35A0F713-5034-4426-9900-BD82288CA09D} = {E68C6BCF-7F8D-4267-A73A-33819D9CEC9D}
+		{B4C51A07-4BC7-4DB4-86D8-67360BAB1B42} = {9C3F093E-5040-4177-9F1E-3FA50A33F4CA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FE0793C4-60F1-4564-ABBD-43F412421D3F}
